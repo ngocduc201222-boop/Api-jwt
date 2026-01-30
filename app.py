@@ -380,7 +380,7 @@ def oauth_guest():
         'password': password,
         'response_type': "token",
         'client_type': "2",
-        'client_secret': "2ee44819e9b4598845141067b281621874d0d5d7af9d8f7e00c1e54715b7d1e3",
+        'client_secret': "",
         'client_id': "100067"
     }
     headers = {
