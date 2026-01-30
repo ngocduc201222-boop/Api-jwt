@@ -73,7 +73,7 @@ def fetch_open_id(access_token):
             "sec-fetch-site": "same-site",
             "user-agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
         }
-        uid_res = requests.get(uid_url, headers=uid_headers, verify=False, timeout=5)
+        uid_res = requests.get(uid_url, headers=uid_headers, verify=False, timeout=8)
         uid_data = uid_res.json()
         uid = uid_data.get("uid")
 
